@@ -10,8 +10,8 @@
     <script src=""></script>
     <title>Friendly Ghost | Dashboard</title>
 </head>
-<body>
-    <header class="bg-light p-inline-1">
+<body class="bg-grey">
+    <header class="bg-light p-inline-1 pb-1">
         <div class="flex flex-between p-1">
             <div class="flex align-center gap-1 width-50">
                 <label for="search-bar"><i class="fa-solid text-grey fa-magnifying-glass"></i></label>
@@ -23,7 +23,7 @@
                 <h4 class="text-dark fw-500 font-md">Morgan Kane</h4>
             </div>
         </div>
-        <div class="flex flex-between p-inline-1">
+        <div class="flex flex-between">
             <div class="flex flex-start gap-1">
                 <img src="images.jpeg" alt="">
                 <div>
@@ -41,56 +41,196 @@
             </div>
         </div>
     </header>
+    <aside class="bg-primary flex flex-column gap-2 text-light p-inline-1">
+        <div class="">
+            <h2 class="fw-600">
+                <i class="fa-solid fa-chart-line"></i>
+                <span class="font-md fw-600">Dashboard</span>
+            </h2>
+        </div>
+        <div class="flex flex-column gap-1">
+            <h4>
+                <i class="fa-solid fa-house"></i>
+                <span class="font-md fw-400">Home</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-user"></i>
+                <span class="font-md fw-400">Profile</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-message"></i>
+                <span class="font-md fw-400">Mesages</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-clock"></i>
+                <span class="font-md fw-400">History</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-list-check"></i>
+                <span class="font-md fw-400">Tasks</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-users"></i>
+                <span class="font-md fw-400">Community</span>
+            </h4>
+        </div>
+        <div class=" flex flex-column gap-1">
+            <h4>
+                <i class="fa-solid fa-gear"></i>
+                <span class="font-md fw-400">Setting</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-question"></i>
+                <span class="font-md fw-400">Support</span>
+            </h4>
+            <h4>
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="font-md fw-400">Privacy</span>
+            </h4>
+        </div>
+    </aside>
     <main>
-        <section class="sidebar">
-            <aside class="bg-primary flex flex-column gap-2 text-light p-inline-1">
-                <div class="">
-                    <h2 class="fw-600">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span class="font-md">Dashboard</span>
-                    </h2>
+        <section>
+            <div class="container p-1">
+                <div class="projects">
+                    <h3 class="fw-400 font-md pbl-1">Your Projects</h3>
+                    <div class="grid gap-1">
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light flex flex-column p-1 gap-half">
+                            <h4 class="fw-400 font-sm">Impossible App</h4>
+                            <div class="text-grey font-sm">
+                                <p class="mb-2">
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Voluptatibus, assumenda?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    
+                                </p>
+                            </div>
+                            <div class="flex-end flex gap-1 justify-flex-end">
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-regular fa-eye"></i>
+                                </p>
+                                <p class="text-grey font-md">
+                                    <i class="fa-solid fa-code-fork"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex flex-column gap-1">
-                    <h4>
-                        <i class="fa-solid fa-house"></i>
-                        <span class="font-md">Home</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-user"></i>
-                        <span class="font-md">Profile</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-message"></i>
-                        <span class="font-md">Mesages</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-clock"></i>
-                        <span class="font-md">History</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-list-check"></i>
-                        <span class="font-md">Tasks</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-users"></i>
-                        <span class="font-md">Community</span>
-                    </h4>
-                </div>
-                <div class=" flex flex-column gap-1">
-                    <h4>
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="font-md">Setting</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-question"></i>
-                        <span class="font-md">Support</span>
-                    </h4>
-                    <h4>
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <span class="font-md">Privacy</span>
-                    </h4>
-                </div>
-            </aside>
+
+            </div>
         </section>
     </main>
     <footer></footer>
